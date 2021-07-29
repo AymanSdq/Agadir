@@ -1,0 +1,1317 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+.header{
+    background: #CD6155;
+    color: #fff;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 1000;
+}
+.logo{
+    align-items: center;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'Pattaya', sans-serif;
+}
+.menu{
+    display: flex;
+    Column-gap: 25px;
+    padding-right: 26px;
+    outline: none;
+}
+.menu_links{
+    text-decoration: none;
+    color: #fff;
+    line-height: 80px;
+    font-size: 20px;
+    outline: none;
+}
+
+.menu_links:hover{
+    border-bottom: 1px solid #D5B5C2;
+}
+
+
+
+
+/* Picture uneder the header  */
+
+.pichead{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/agadir3.jpg);
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    
+}
+
+
+.word_text{
+    color: #fff;
+    font-family: 'Pattaya', sans-serif;
+    font-size: 25px;
+    
+}
+
+.word_text h1{
+    font-weight: 200;
+    
+}
+.word_text a{
+    text-decoration: none;
+    background-color: #CD6155;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: 20px;
+    outline: none;
+}
+
+.word_text a:hover{
+    background-color: #cd6155dc;
+    
+}
+
+
+.titles_home{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 45px;
+    width: 52%;
+    margin:auto;
+    text-align: center;
+}
+.titles_home h1{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.titles_home h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #cd6155dc;
+    
+}
+
+/* aboutpage */
+.about{
+    
+    text-align: center;
+    font-size: 20px;
+    padding-top: 45px;
+    width: 52%;
+    margin:auto;
+    outline: none;
+}
+.about h1{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.about h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #cd6155dc;
+    
+}
+.about a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 200;
+    width: 20%;
+    border: 2px solid ;
+    margin: 15px auto;
+    display: block;
+    color:  #cd6155dc;;
+    outline: none;
+    margin-bottom: 25px;
+}
+.about a:hover{
+    color: #fff;
+    background-color: #cd6155dc;;
+}
+
+
+/* hotel */
+hr{
+    width: 50%;
+    margin:auto ;
+}
+
+
+/* hotels ads  */
+.hotels_ads{
+    justify-content: center;
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.hotel1{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/hotel/royal.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.hotel2{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/hotel/sofitel.jpg);
+}
+.hotel3{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/hotel/robinson.jpg);
+}
+.hotel4{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/hotel/riu.jpg);
+}
+.hotel5{
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/hotel/Oasis.jpg);
+}
+.hotelnum{
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.hotel_boutton{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 200;
+    width: 20%;
+    border: 2px solid ;
+    margin: 15px auto;
+    display: block;
+    color:  #cd6155dc;;
+    outline: none;
+    margin-bottom: 25px;
+}
+.hotel_boutton:hover{
+    color: #fff;
+    background-color: #cd6155dc;;
+}
+
+.hotel-click{
+    display: flex;
+    text-decoration: none;
+    color: transparent;
+    font-size: 36px;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+}
+
+.hotel-click:hover{
+    background-color: #cd61555e;
+    font-family: 'Pattaya', sans-serif;
+    color: #C1E6DC;
+}
+
+/* Lounge Bar & Restaurant */
+.lounge{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 45px;
+    width: 52%;
+    margin:auto;
+    text-align: center;
+}
+
+.lounge h1{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.lounge h1::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 3px;
+    background: #cd6155dc;
+    
+}
+
+/* Louge ads */
+.section{
+    padding: 0 10px;
+}
+.restau{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 75px;
+    overflow-x: hidden;
+    padding: 0 5px ;
+    margin-bottom: 50px;
+}
+
+.rest1{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/lounge/jardindeau.png);
+}
+.rest2{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/lounge/petit.jpg);
+}
+.rest3{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/lounge/pure.jpg);
+}
+.rest4{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/lounge/oplaya.jpg);
+}
+.rest5{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/lounge/italiano.jpg);
+}
+.rest6{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/lounge/casa.jpg);
+}
+
+.restchoice{
+    background-color: gray;
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+}
+
+
+
+
+.lounge-click{
+    display: flex;
+    text-decoration: none;
+    color: transparent;
+    font-size: 36px;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+
+}
+
+.lounge-click:hover{
+    background-color: #cd61555e;
+    font-family: 'Pattaya', sans-serif;
+    color: #C1E6DC;
+}
+
+/* comments */
+.people{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.prs{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background: rgb(216, 216, 216);
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+}
+.names{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60px;
+    font-size: 25px;
+    color: #cd6155dc;
+    font-family: 'Baloo Tammudu 2';
+}
+.stars{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100px;
+    font-size: 25px;
+    color: #cd6155dc;
+}
+.cmts{
+    display: flex;
+    margin-top: 150px;
+    color: black;
+    font-family: 'Baloo Tammudu 2';
+}
+.cimg{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+}
+.cimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Adventure  */
+
+.adventure{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+}
+.space{
+    margin-bottom: 50px;
+}
+.adven1{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/adventure/quad.jpg);
+}
+.adven2{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/adventure/surf.jpg);
+}
+.adven3{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/adventure/diving.jpg);
+}
+.adven4{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/adventure/sky.jpg);
+}
+.adven5{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/adventure/climbing.jpg);
+}
+.adven6{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/adventure/jetski.jpg);
+}
+.adven7{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/adventure/ballon.jpg);
+}
+.adven8{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/adventure/boat.jpg);
+}
+
+.adv{
+    width: 325px;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.adv_click{
+    display: flex;
+    text-decoration: none;
+    color: transparent;
+    font-size: 36px;
+    width: 325px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.adv_click:hover{
+    background-color: #cd61555e;
+    font-family: 'Pattaya', sans-serif;
+    color: #C1E6DC;
+}
+
+/* Discover more places next to agadir */
+
+.discover{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.dsv1{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/paradis.jpg);
+}
+.dsv2{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/taghazout.jpg);
+}
+.dsv3{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/legzira.png);
+}
+.dsv4{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/coroco.jpg);
+}
+.dsv5{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/imouzar.jpg);
+}
+.dsv6{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/tyout.jpg);
+}
+.dsv7{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/tamri.jpg);
+}
+.dsv8{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/kasbah.jpg);
+}
+.dsv9{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/mosque.jpg);
+}
+.dsv10{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/tiznit.jpg);
+}
+.dsv11{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/olhaw.jpg);
+}
+.dsv12{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/ikouna.jpg);
+}
+.dsv12{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/tafraout.jpg);
+}
+.dsv13{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/kart.jpg);
+}
+.dsv14{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/grotte.jpg);
+}
+.dsv15{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Excu/sand.jpg);
+}
+
+.dsv_click{
+    display: flex;
+    text-decoration: none;
+    color: transparent;
+    font-size: 36px;
+    width: 300px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.dsv_click:hover{
+    background-color: #cd61555e;
+    font-family: 'Pattaya', sans-serif;
+    color: #C1E6DC;
+}
+.dscv{
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* colaboration */
+
+.Colab{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.colb1{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Colab/alsa.png);
+}
+.colb2{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Colab/agadir.jpg);
+}
+.colb3{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Colab/maroc.png);
+}
+.colb4{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Colab/ctm.png);
+}
+.colb5{
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), url(../Image/Colab/Royal.png);
+}
+.clb{
+    width: 300px;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Footer  */
+footer{
+    width: 100%;
+    background-color: #CD6155;
+    font-family: 'NTR', sans-serif;
+}
+.footerup{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 50px;
+}
+    
+
+
+.footerbox{
+    width: 20%;
+    height: 285px;
+}
+/* first div of the footer up  */
+.footerup div:first-of-type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logofoot{
+    width: 50%;
+    height: 50%;
+
+}
+
+.footerbox a,.footerbox h1{
+    color: #ffff;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    padding-bottom: 1px;
+}
+
+
+.footerdown{
+    width: 100%;
+    text-align: center;
+}
+.social{
+    color: #fff;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.copyright{
+    border-top: .1px solid #ff6f5f;
+    color: #ffff;
+    font-size: 16px;
+}
+
+
+@media (max-width: 790px){
+    .footerbox{
+        min-width: 100%;
+        text-align: center;
+    }
+    .menu_links{
+        display: none;
+    }
+    .word_text{
+        font-size: 15px;
+        
+    }
+    .about {
+        font-size: 15px;
+    }
+    .about a{
+        font-size: 15px;
+        padding: 14px;
+        width: 60%;
+    }
+    .lounge h1{
+        font-size: 20px;
+    }
+    .titles_home p{
+        font-size: 19px;
+    }
+}
+
+
+
+
+
+
+
+/* ======================================================================================== Contact Page  ============================================================================ */
+
+.maps_contact{
+    width: 100%;
+    margin-top: 80px;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url('../Image/contact/Capture1.PNG');
+    background-size: cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.cnt_contact{
+    width: 80%;
+    height: 800px;
+    display: flex;
+    margin: 50px 10%;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+.contactpic{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    border-right: .5px solid #ccc;
+}
+
+.contactform{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formulco{
+    width: 50%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+    outline: none;
+    border: .5px solid #ccc;
+}
+
+textarea{
+    width: 50%;
+    height: 200px;
+    border-radius: 20px;
+    outline: none;
+    border: .5px solid #ccc;
+    padding: 0 10px;
+}
+
+.contactform a{
+    width: 50%;
+    text-align: center;
+    height: 40px;
+    background-color: #ff6f5f;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding-top: 5px;
+}
+
+.contactform a:hover{
+    background: #ccc;
+    color: #ff6f5f;
+    
+
+}
+
+.contactform h2{
+    font-family: 'NTR', sans-serif;
+
+}
+
+/*======================================================================================== About us page  ===========================================================================*/
+.aboutus_wlc{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/aboutus/work.jpg);
+    background-size:cover ;
+    margin-top: 80px;
+    color: #fff;
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 1px;
+}
+
+.about_us_team_cnt{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.about_us_team_ig{
+    display: flex;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    
+}
+.about_us_team_ig img{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.about_us_team_text{
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    height: auto;
+    box-shadow: 1px 1px 2px 2px #ccc;
+
+}
+.about_us_team_text h1{
+    margin-bottom: 20px;
+}
+
+.about_us_team_cnt2{
+    width: 100%;
+    height: auto;
+    background-color: #CD6155;
+    display: flex;
+    margin-top: 30px;
+}
+.about_us_team_talk{
+    width: 80%;
+    margin: auto auto;
+    height: auto;
+    
+    display: flex;
+
+}
+.aboutus_mmb{
+    width: 30%;
+    height: 2auto;
+
+}
+
+.aboutus_mmb img{
+    width: 100%;
+    height: 200px;
+}
+
+
+.about_us_talk_cnt{
+    width: 80%;
+    height: auto;
+    box-shadow: 1px 1px 2px 2px #ccc;
+    margin-top: 50px;
+    margin: 50px auto 30px auto;
+    text-align: center;
+    padding: 30px;
+}
+.about_us_talk_cnt h1{
+    margin-bottom: 20px;
+}
+
+.about_us_talk_cnt a{
+    justify-content: center;
+    display: flex;
+    width: 30%;
+    padding: 20px;
+    margin-top: 20px;
+    margin: 20px auto ;
+    background-color: #CD6155;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+
+}
+
+
+/*======================================================================================== Login & Regsiter  ===========================================================================*/
+
+.container_login{
+    width: 40%;
+    height: auto;
+    display: flex;
+    margin: 100px 30% 20px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+
+}
+
+
+.imglogin{
+    width: 30%;
+    height: auto;
+    background: url("../Image/login/lg.jpg");
+    background-size: cover;
+    display: flex;
+    background-position: right;
+}
+.formlogin{
+    width: 70%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formlogin h1{
+    text-align: center;
+}
+
+.loginfor{
+    width: 71%;
+    height: 40px;
+    border-radius: 20px;
+    margin: 15px 0;
+    outline: none;
+    border: .5px solid #ccc;
+    padding: 0 10px;
+}
+
+
+.formlogin a{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    background: #ff6f5f;
+    padding: 10px;
+    justify-content: center;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.logininf{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    margin: 40px 5% 40px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+.loginpic{
+    width: 50%;
+    height: auto;
+    border: .5px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.loginserv{
+    width: 50%;
+    height: auto;
+    border: .5px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 30px;
+}
+
+.loginserv a{
+    display: flex;
+    width: 50%;
+    height: 40px;
+    background: #ff6f5f;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 15px;
+
+}
+
+.loginserv a:hover{
+    color: #fff;
+    background-color: #f09186;
+}
+
+
+
+/* Hotels Page  */
+.hotels_wlc{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/Hotels_Page/htl.jpg);
+    background-size:cover ;
+    background-position: center;
+    margin-top: 80px;
+    color: #fff;
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 1px;
+}
+.hotels_list_page{
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 0px 5% 50px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+.hotel_list_page_pic{
+    display: flex;
+    width: 40%;
+    height: auto;
+    background: black;
+    
+}
+.hotel_list_page_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+   
+}
+.hotel_list_page_pic img{
+    width: 100%;
+}
+
+.hotel_list_page_desc h1{
+    
+    margin-bottom: 50px;
+    background-color: #CD6155;
+    width: 100%;
+    text-align: center;
+}
+
+.hotel_list_page_desc p{
+    padding: 0px 40px;
+}
+
+.hotel_list_page_desc a{
+    margin-top: 30px;
+    display: flex;
+    background-color: #CD6155;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 50px;
+    width: 40%;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.hotel_list_page_desc a:hover{
+    color: #CD6155;
+    background-color: #ccc;
+}
+
+/* Lounge bar & restaurant  */
+
+.lounge_wlc{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/Lounge_Page/bar.jpg);
+    background-size:cover ;
+    background-position: center;
+    margin-top: 80px;
+    color: #fff;
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 1px;
+}
+
+.lounge_list_page{
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 0px 5% 50px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+.lounge_list_page_pic{
+    display: flex;
+    width: 40%;
+    height: auto;
+    background: black;
+    
+}
+.lounge_list_page_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+   
+}
+.lounge_list_page_pic img{
+    width: 100%;
+}
+
+.lounge_list_page_desc h1{
+    
+    margin-bottom: 50px;
+    background-color: #CD6155;
+    width: 100%;
+    text-align: center;
+}
+
+.lounge_list_page_desc p{
+    padding: 0px 40px;
+}
+
+.lounge_list_page_desc a{
+    margin-top: 30px;
+    display: flex;
+    background-color: #CD6155;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 50px;
+    width: 40%;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.lounge_list_page_desc a:hover{
+    color: #CD6155;
+    background-color: #ccc;
+}
+
+
+
+/* Adventure Page  */
+.adventure_wlc{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/Adventure_Page/raimond.jpg);
+    background-size:cover ;
+    background-position: center;
+    margin-top: 80px;
+    color: #fff;
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 1px;
+}
+
+.adventure_list_page{
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 0px 5% 50px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+.adventure_list_page_pic{
+    display: flex;
+    width: 40%;
+    height: auto;
+    background: black;
+    
+}
+.adventure_list_page_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+   
+}
+.adventure_list_page_pic img{
+    width: 100%;
+}
+
+.adventure_list_page_desc h1{
+    
+    margin-bottom: 50px;
+    background-color: #CD6155;
+    width: 100%;
+    text-align: center;
+}
+
+.adventure_list_page_desc p{
+    padding: 0px 40px;
+}
+
+.adventure_list_page_desc a{
+    margin-top: 30px;
+    display: flex;
+    background-color: #CD6155;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 50px;
+    width: 40%;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.adventure_list_page_desc a:hover{
+    color: #CD6155;
+    background-color: #ccc;
+}
+
+
+/* Citys netx to agadir  */
+
+
+
+.city_wlc{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(../Image/Citys_Page/city.jpg);
+    background-size:cover ;
+    background-position: center;
+    margin-top: 80px;
+    color: #fff;
+    font-family: 'Pattaya', sans-serif;
+    letter-spacing: 1px;
+}
+
+
+.city_list_page{
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 0px 5% 50px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
+
+.city_list_page_pic{
+    display: flex;
+    width: 40%;
+    height: auto;
+    background: black;
+    
+}
+.city_list_page_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+}
+.city_list_page_pic img{
+    width: 100%;
+}
+
+.city_list_page_desc h1{
+    
+    margin-bottom: 50px;
+    background-color: #CD6155;
+    width: 100%;
+    text-align: center;
+}
+
+.city_list_page_desc p{
+    padding: 0px 40px;
+}
+
+.city_list_page_desc a{
+    margin-top: 30px;
+    display: flex;
+    background-color: #CD6155;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 50px;
+    width: 40%;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.city_list_page_desc a:hover{
+    color: #CD6155;
+    background-color: #ccc;
+}
+
+/* historypage */
+.cnt_history_pic{
+    width: 80%;
+    margin: 150px 10% 0;
+    height: auto;
+    display: flex;
+}
+.cnt_history_pic_img{
+    width: 30%;
+    height: auto;
+    box-shadow: 1px 1px 2px 2px #ccc;
+    
+}
+
+.cnt_history_pic_img img{
+    width: 100%;
+    height: auto;
+}
+
+
+.cnt_history_info{
+    width: 80%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px 2px #ccc;
+}
